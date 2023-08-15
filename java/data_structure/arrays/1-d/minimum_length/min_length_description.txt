@@ -1,0 +1,51 @@
+Problem
+You are given two arrays 
+ and 
+, of length 
+. You can select any subarray and then sort the elements in ascending order of that subarray for arrays 
+ and 
+.
+
+Find the minimum length of the subarray you can choose to make 
+ and 
+ same after performing the operation. 
+ and 
+ are permutations of each other.
+
+Input Format:
+
+The first line contains an integer 
+ denoting the number of test cases.
+The first line of each test case contains an integer 
+.
+The next line of each test case contains 
+ space-separated integers, elements of array 
+.
+The next line of each test case contains 
+ space-separated integers, elements of array 
+.
+Output Format:
+
+For each test case, print the minimum length of the subarray you can choose to make 
+ and 
+ same after performing the operation.
+
+Sample Input
+2
+3
+2 3 1 
+2 1 3
+4
+1 1 2 1
+2 1 1 1
+Sample Output
+2
+3
+
+Source Limit:
+Explanation
+First test case:
+We can choose a subarray from index 2 to 3 (1-based indexing). Hence, the answer is 2
+
+Second test case:
+We can choose a subarray from index 1 to 3 (1-based indexing). Hence, the answer is 3
